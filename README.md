@@ -2,8 +2,8 @@
 
 ### How to run the code:-
 
--install npm dependencies.(npm i)
--type 'nodemon src/app.js' to run the server.
+*install npm dependencies.(npm i)
+*type 'nodemon src/app.js' to run the server.
 
 API :-
 
@@ -19,46 +19,56 @@ API :-
 > First signup a user using POST 'http://localhost:2000/register'.
 > req parameters:
 
+```json
 {
-"name":"abc",
-"age":23,
-"organisation": "health-care",
-"designation": "social worker",
-"password": "1234",
-"email": "abc@gmail.com"
+  "name": "abc",
+  "age": 23,
+  "organisation": "health-care",
+  "designation": "social worker",
+  "password": "1234",
+  "email": "abc@gmail.com"
 }
+```
 
 > Then signin using GET 'http://localhost:2000/register'.
 > req parameters:
 
+```json
 {
-"password": "1234",
-"email": "abc@gmail.com"
+  "password": "1234",
+  "email": "abc@gmail.com"
 }
+```
 
 > To add states use POST:'http://localhost:2000/state'
 > req parameters:
 
+```json
 {
-"state":"delhi"
+  "state": "delhi"
 }
+```
 
 > To add district use POST:'http://localhost:2000/district'
 > req parameters:
 
+```json
 {
-"district":"kanpur"
+  "district": "kanpur"
 }
+```
 
 > To add child use POST :'http://localhost:2000/child'
 > req parameters:
 
-{  
- "name":"aryan",
-"sex":"male",
-"dob":"05-06-1998",
-"father_name":"abc",
-"mother_name":"xyz",
-"state":"uttarkhand",
-"district":"dehradun"
+```json
+{
+  "name": "aryan",
+  "sex": "male",
+  "dob": "05-06-1998",
+  "father_name": "abc",
+  "mother_name": "xyz",
+  "state": "uttarkhand",
+  "district": "dehradun"
 }
+```
