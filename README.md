@@ -2,10 +2,10 @@
 
 ### How to run the code:-
 
-*install npm dependencies.(npm i)
-*type 'nodemon src/app.js' to run the server.
+- install npm dependencies.(npm i)
+- type 'nodemon src/app.js' to run the server.
 
-API :-
+### API :-
 
 - User Login-'http://localhost:2000/register'
 - User Logout-'http://localhost:2000/logout'
@@ -17,7 +17,8 @@ API :-
 - Post Child-'http://localhost:2000/child'
 
 > First signup a user using POST 'http://localhost:2000/register'.
-> req parameters:
+
+req parameters:
 
 ```json
 {
@@ -31,7 +32,8 @@ API :-
 ```
 
 > Then signin using GET 'http://localhost:2000/register'.
-> req parameters:
+
+req parameters:
 
 ```json
 {
@@ -41,7 +43,8 @@ API :-
 ```
 
 > To add states use POST:'http://localhost:2000/state'
-> req parameters:
+
+req parameters:
 
 ```json
 {
@@ -50,7 +53,8 @@ API :-
 ```
 
 > To add district use POST:'http://localhost:2000/district'
-> req parameters:
+
+req parameters:
 
 ```json
 {
@@ -59,7 +63,8 @@ API :-
 ```
 
 > To add child use POST :'http://localhost:2000/child'
-> req parameters:
+
+req parameters:
 
 ```json
 {
